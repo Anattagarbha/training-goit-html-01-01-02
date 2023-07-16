@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tag &lt;video&gt;</title>
+  </head>
+  <body>
+    <!-- content -->
+    <p>
+      Для разметки видеоконтента используется парный тег <b>&lt;video&gt;</b>.
+    </p>
+    <video
+      src="http://techslides.com/demos/sample-videos/small.webm"
+      poster="https://images.pexels.com/photos/595804/pexels-photo-595804.jpeg?w=640"
+      width="640"
+      controls
+      loop
+      preload="auto"
+    ></video>
+    <p>Разберём атрибуты:</p>
+    <ul>
+      <li><i>src</i> - указывает адрес видеофайла</li>
+      <li>
+        <i>poster</i> - адрес изображения, которое используется как постер, если
+        видео не загружено или еще не проигрывается
+      </li>
+      <li><i>width и height</i> - задают высоту и ширину как у изображения</li>
+      <li>
+        <i>controls</i> - атрибут-флаг, если присутствует - добавляются элементы
+        управления видео
+      </li>
+      <li>
+        <i>autoplay</i> - атрибут-флаг, если присутствует - проигрывание видео
+        начинается как только оно доступно
+      </li>
+      <li>
+        <i>loop</i> - атрибут-флаг, если присуствует - видео будет повторяться в
+        цикле
+      </li>
+    </ul>
+  </body>
+</html>

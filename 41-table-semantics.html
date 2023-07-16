@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table semantics</title>
+  </head>
+  <body>
+    <!-- content -->
+    <p>
+      Для повышения семантики разметки таблицы есть несколько
+      <strong>структурных тегов</strong>.
+    </p>
+    <ul style="padding: 0">
+      <li>
+        &lt;thead&gt; - шапка, оборачивает группу строк таблицы в области
+        заголовка.
+      </li>
+      <li>&lt;tbody&gt; - тело, оборачивает основную группу строк таблицы.</li>
+      <li>
+        &lt;tfooter&gt; - подвал, обозначает группу строк таблицы в области
+        нижнего колонтитула.
+      </li>
+    </ul>
+    <table>
+      <thead>
+        <tr>
+          <th>Номер</th>
+          <th>Маршрут</th>
+          <th>Время</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>433</td>
+          <td>Киев - Ковель</td>
+          <td>5 часов</td>
+        </tr>
+        <tr>
+          <td>701</td>
+          <td>Харьков - Днепр</td>
+          <td>7 часов</td>
+        </tr>
+        <tr>
+          <td>258</td>
+          <td>Львов - Одесса</td>
+          <td>4 часа</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
